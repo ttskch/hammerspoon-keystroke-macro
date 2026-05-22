@@ -5,6 +5,8 @@
 [Hammerspoon](https://www.hammerspoon.org) 用のシンプルなキーストロークマクロモジュール。
 一連のキー操作を記録してホットキーで再生できます。
 
+![demo](./docs/demo.gif)
+
 ## 特徴
 
 - トグル式の記録（同じホットキーで開始/停止）

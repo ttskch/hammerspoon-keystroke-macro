@@ -5,6 +5,8 @@
 A simple keystroke macro module for [Hammerspoon](https://www.hammerspoon.org).
 Record a sequence of keystrokes and replay them with a hotkey.
 
+![demo](./docs/demo.gif)
+
 ## Features
 
 - Toggle-style recording (same hotkey starts/stops)
