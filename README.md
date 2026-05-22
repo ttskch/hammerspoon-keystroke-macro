@@ -37,7 +37,7 @@ require('keystroke_macro').setup()
 This registers the default hotkeys:
 
 - `Cmd + Shift + Option + R` — toggle recording start/stop
-- `Cmd + Shift + Option + P` — replay the recorded macro
+- `Cmd + Shift + Option + P` — replay the recorded macro (hold to replay repeatedly)
 
 To use custom hotkeys, pass them to `setup()`:
 
@@ -57,7 +57,7 @@ With the default configuration:
 | Action | Hotkey |
 |---|---|
 | Toggle recording | `Cmd + Shift + Option + R` |
-| Replay | `Cmd + Shift + Option + P` |
+| Replay (hold to repeat) | `Cmd + Shift + Option + P` |
 
 ### Example
 

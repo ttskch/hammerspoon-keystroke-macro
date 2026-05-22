@@ -37,7 +37,7 @@ require('keystroke_macro').setup()
 これでデフォルトのホットキーが登録されます：
 
 - `Cmd + Shift + Option + R` — 録音 開始/停止
-- `Cmd + Shift + Option + P` — 記録したマクロを再生
+- `Cmd + Shift + Option + P` — 記録したマクロを再生（長押しで連続再生）
 
 ホットキーをカスタムしたい場合は `setup()` に渡します：
 
@@ -57,7 +57,7 @@ require('keystroke_macro').setup({
 | 操作 | キー |
 |---|---|
 | 録音 開始/停止 | `Cmd + Shift + Option + R` |
-| 再生 | `Cmd + Shift + Option + P` |
+| 再生（長押しで連続再生） | `Cmd + Shift + Option + P` |
 
 ### 例
 

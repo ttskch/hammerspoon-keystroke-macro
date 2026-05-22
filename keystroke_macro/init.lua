@@ -100,7 +100,7 @@ function M.setup(opts)
     local toggleHotkey = opts.toggleHotkey or {{"cmd", "shift", "alt"}, "R"}
     local playHotkey   = opts.playHotkey   or {{"cmd", "shift", "alt"}, "P"}
     hs.hotkey.bind(toggleHotkey[1], toggleHotkey[2], M.toggle)
-    hs.hotkey.bind(playHotkey[1], playHotkey[2], M.play)
+    hs.hotkey.bind(playHotkey[1], playHotkey[2], M.play, nil, M.play)
     return M
 end
 
